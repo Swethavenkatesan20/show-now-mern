@@ -8,7 +8,7 @@ const router = require('./routes')
 
 const app = express()
 app.use(cors({
-   origin: ['http://localhost:3000'], 
+   origin: ['https://show-now-mern-frontend.vercel.app'], 
    methods: 'GET,POST,PUT,DELETE',
    credentials: true
 }));
