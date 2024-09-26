@@ -1,4 +1,4 @@
-const backendDomin =  "http://localhost:8080";
+const backendDomin =  "https://show-now-mern-api.vercel.app";
 const SummaryApi = {
     signUP : {
         url : `${backendDomin}/api/signup`,
